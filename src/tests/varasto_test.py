@@ -72,3 +72,5 @@ class TestVarasto(unittest.TestCase):
         testi = Varasto(10, 2)
         # palauttaa tekstimuotoisen informaation
         self.assertEqual(str(testi), "saldo = 2, vielä tilaa 8")
+
+    #uusi muutos
