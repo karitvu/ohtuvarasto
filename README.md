@@ -1,2 +1,2 @@
 # ohtuvarasto
-Ohjelmistotuotanto demo 1
+[![CI](https://github.com/karitvu/ohtuvarasto/actions/workflows/main.yml/badge.svg)](https://github.com/karitvu/ohtuvarasto/actions/workflows/main.yml)
