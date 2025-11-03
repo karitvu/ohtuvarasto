@@ -66,7 +66,7 @@ class TestVarasto(unittest.TestCase):
     def test_otetaan_liikaa(self):
         self.varasto.lisaa_varastoon(8)
         # palauttaa kaiken mitä on, eli 8
-        self.assertAlmostEqual(self.varasto.ota_varastosta(10), 8)
+        self.assertAlmostEqual(self.varasto.ota_varastosta(10), 7)
 
     def test_teksti(self):
         testi = Varasto(10, 2)
