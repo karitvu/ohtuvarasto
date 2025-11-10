@@ -38,7 +38,7 @@ class TestVarasto(unittest.TestCase):
 
         # varastossa pitäisi olla tilaa 10 - 8 + 2 eli 4
         self.assertAlmostEqual(self.varasto.paljonko_mahtuu(), 4)
-        
+
     def test_tehdaan_virheellisen_kokoinen(self):
         self.varasto = Varasto(-1)
         # varaston tilavuuden pitäisi olla 0
@@ -73,4 +73,4 @@ class TestVarasto(unittest.TestCase):
         # palauttaa tekstimuotoisen informaation
         self.assertEqual(str(testi), "saldo = 2, vielä tilaa 8")
 
-    #uusi muutos
+    # uusi muutos
