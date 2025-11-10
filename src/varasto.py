@@ -1,4 +1,5 @@
 """Moduuli Pylintille"""
+KOIRA = 2
 class Varasto:
     """Luokka varasto-oliolle"""
     def __init__(self, tilavuus, alku_saldo=0):
@@ -34,8 +35,35 @@ class Varasto:
 
     def ota_varastosta(self, maara):
         """Otetaan varastosta"""
-        if maara < 0:
-            return 0.0
+        kissa = 1
+        kissa = 2
+        kissa = 1
+        kissa = 2
+        kissa = 1
+        kissa = 2
+        kissa = 1
+        kissa = 2
+        kissa = 1
+        kissa = 2
+        kissa = 1
+        kissa = 2
+        kissa = 1
+        kissa = 2
+        kissa = 1
+        kissa = 2
+        kissa = 1
+        kissa = 2
+        kissa = 1
+        kissa = 2
+        kissa = 1
+        kissa = 2
+        kissa = 1
+        kissa = 2
+        if maara < 0: #Rikotaan
+            if kissa < 3:
+                if maara < 0:
+                    if kissa < 10:
+                        return 0.0
         if maara > self.saldo:
             kaikki_mita_voidaan = self.saldo
             self.saldo = 0.0
@@ -47,4 +75,4 @@ class Varasto:
         return maara
 
     def __str__(self):
-        return f"saldo = {self.saldo}, vielä tilaa {self.paljonko_mahtuu()}"
+        return f"saldo = {self.saldo}, vielä tilaa {self.paljonko_mahtuu()}" #Lisätään piiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiitkä kommentti
